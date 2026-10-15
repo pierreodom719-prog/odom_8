@@ -1,0 +1,26 @@
+{
+  "expo": {
+    "name": "Campground Reservation",
+    "slug": "campground-reservation-app",
+    "version": "1.0.0",
+    "orientation": "default",
+    "icon": "./assets/images/splash.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/images/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#1b4332"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "plugins": [
+      [
+        "expo-font",
+        {
+          "fonts": ["./assets/fonts/CustomFont.ttf"]
+        }
+      ]
+    ]
+  }
+}
